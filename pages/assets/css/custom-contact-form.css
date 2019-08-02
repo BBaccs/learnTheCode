@@ -98,3 +98,8 @@ div.contact-info h4, .contact-info li {
   } 
 }
 /* Contact Form End */
+
+/* JS ALERTS */
+.contactAlert {
+  text-align: center;
+}
