@@ -1,3 +1,9 @@
+/* Start Header */
+.faq-link {
+  text-decoration: underline;
+}
+/* End Header */
+
 /* Contact Form Start */
 section#container-contact {
   color: black;
@@ -29,11 +35,6 @@ section#container-contact > h3{
 
 .wrapper > * {
   padding: 1em;
-}
-
-div.contact-info {
-  background-color: var(--purple);
-  color: white;
 }
 
 div.contact-info h4, .contact-info li {
@@ -73,9 +74,6 @@ div.contact-info h4, .contact-info li {
 }
 
 .contact form button {
-  background: var(--indigo);
-  color: #fff;
-  border: 0;
   text-transform: uppercase;
 }
 
@@ -99,4 +97,4 @@ div.contact-info h4, .contact-info li {
       text-align: left;
   } 
 }
-/* Contact Form Start */
+/* Contact Form End */

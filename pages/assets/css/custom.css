@@ -1,11 +1,10 @@
-/* Carosel Cards in header */
+/* Start Carosel Cards in header (index page) */
 
 
-/* This will expand the card and necessarry children so they don't look shorter then the rest of the cards*/
+/* This will expand the card and necessarry children so they don't look shorter then the rest of the cards */
 .expand-img {
   height: 85%;
 }
-
 .expand-img > .card {
   height: 100%;
 }
@@ -13,7 +12,10 @@
 .expand-img > .card > a, .card > a > img {
   height: 100%;
 }
+/* End Carosel Cards in header (index page) */
 
+
+/* Start Key Project cards (index page)*/
 .extend-img {
   max-height: 350px;
 }
@@ -21,3 +23,4 @@
 .extend-img > img {
   height: fit-content;
 }
+/* End Key Project cards (index page)*/
