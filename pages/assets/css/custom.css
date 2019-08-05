@@ -12,6 +12,10 @@
 .expand-img > .card > a, .card > a > img {
   height: 100%;
 }
+
+.card-footer {
+  text-overflow: ellipsis;  
+  }
 /* End Carosel Cards in header (index page) */
 
 
