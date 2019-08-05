@@ -18,7 +18,7 @@
     }
   },
   "license": "SEE LICENSE IN LICENSE.md",
-  "homepage": "http://wingman.mediumra.re/index.html",
+  "homepage": "https://learnthecode.netlify.com/",
   "dependencies": {
     "aos": "~2.3.4",
     "bootstrap": "~4.3.1",
