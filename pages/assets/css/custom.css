@@ -24,3 +24,13 @@
   height: fit-content;
 }
 /* End Key Project cards (index page)*/
+
+
+/* Used site wide */
+.underline-anchor {
+  text-decoration: underline;
+}
+
+.inline-block {
+  display: inline-block;
+}
