@@ -22,13 +22,13 @@ function submitForm(e) {
         //insert html
         div.className = 'contactAlert alert-danger p-1 m-3';
         //add text
-        div.appendChild(document.createTextNode(`If you choose to fill out a number, it can only contain spaces and '-' between numbers and must be propely formatted, 555-555-5555.`));
+        div.appendChild(document.createTextNode(`Acceptable number formats: 555-555-5555 & 888 888 8888`));
         //insert before ul
-        contactSection.insertBefore(div, contactHeading);
+        contactSection.insertBefore(div, contactHeading.nextSibling);
 
         setTimeout(function(){
             document.querySelector('.contactAlert').remove();
-        }, 8000);  
+        }, 10000);  
     }
     // Name must have at least two letters, and cannot contain numbers.
     if (lettersValidation.test(nameVal) & !numbersValidation.test(nameVal) || nameVal === '') {
@@ -41,11 +41,11 @@ function submitForm(e) {
             //add text
             div.appendChild(document.createTextNode(`Name must start with at least two letters, and cannot contain numbers.`));
             //insert before ul
-            contactSection.insertBefore(div, contactHeading);
+            contactSection.insertBefore(div, contactHeading.nextSibling);
     
             setTimeout(function(){
                 document.querySelector('.contactAlert').remove();
-            }, 8000); 
+            }, 10000); 
     }
 }
 
