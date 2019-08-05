@@ -13,8 +13,8 @@
   height: 100%;
 }
 
-.card-footer {
-  text-overflow: ellipsis;  
+div.card-footer {
+  min-height: 40px; 
   }
 /* End Carosel Cards in header (index page) */
 
