@@ -103,3 +103,10 @@ div.contact-info h4, .contact-info li {
 .contactAlert {
   text-align: center;
 }
+
+
+@media (max-width: 576px) { 
+  section.contact-pg-header {
+    padding-bottom: 20px !important; 
+  }
+}
