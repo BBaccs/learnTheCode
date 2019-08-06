@@ -13,9 +13,9 @@
   height: 100%;
 }
 
-div.card-footer {
+.card-footer {
   min-height: 40px; 
-  }
+}
 /* End Carosel Cards in header (index page) */
 
 
