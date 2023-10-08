@@ -20,12 +20,8 @@
 
 
 /* Start Key Project cards (index page)*/
-.extend-img {
-  max-height: 350px;
-}
-
 .extend-img > img {
-  height: fit-content;
+  height: 100%;
 }
 /* End Key Project cards (index page)*/
 
