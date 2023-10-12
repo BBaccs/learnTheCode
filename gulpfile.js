@@ -1,3 +1,5 @@
+const sass = require("gulp-sass")(require("sass"));
+
 /* eslint-disable */
 const autoprefixer = require('gulp-autoprefixer'),
   browserSync = require('browser-sync'),
